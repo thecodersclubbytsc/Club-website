@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=M+PLUS+Rounded+1c:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-y: hidden; */
+}
+
+.header {
+  height: 100vh;
+  overflow-y: hidden;
+
+}
+
+.header-background{
+  position: absolute;
+  background: #164272;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.header-background img{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav ul li {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.logo {
+  width: 100px;
+  margin: 25px 0;
+}
+
+.nav ul li:nth-child(2) .links{
+  text-decoration: none;
+  background-color: #053E4E;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  padding-inline: 40px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.nav ul li:nth-child(2) .links a{
+  color: white;
+  text-decoration: none;
+}
+
+.nav ul li:nth-child(2) .links:hover{
+ border: 2px solid white;
+}
+
+.nav .thecodersclub {
+  background-color: unset;
+  color: white;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.nav .thecodersclub:hover {
+  border-bottom: 2px solid white;
+  
+}
+
+.nav .thecodersclub:hover{
+  text-decoration: none;
+}
+
+.main .hero-text-box{
+  color: white;
+  width: 80%;
+  max-width: 500px;
+  position: absolute;
+  line-height: 1.5;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  top: 22%;
+  left: 10%;
+  font-family: 'DM Serif Display', serif;
+}
+
+.main .hero-text-box p{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.main .hero-text-box .stats {
+  margin-top: 100px;
+  display: flex;
+  width: 100%;
+}
+
+.main .hero-text-box .stats div{
+  text-align: center;
+}
+
+.main .hero-text-box .stats div:first-child{
+  margin-right: 15px;
+}
+
+.main .hero-text-box h1{
+  margin-bottom: 10px;
+}
+
+.stats-header {
+  font-family:'Courier New', Courier, monospace;
+}
+
+.stats-value {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: bolder;
+  text-align: left;
+}
+
+@media only screen and (max-width:500px){
+  .logo{
+    width: 50px;
+    margin: 10px;
+  }
+
+  .main .hero-text-box{
+    left: 5%;
+    width: 90%;
+    line-height: 1.2;
+  }
+
+  .main .hero-text-box .stats {
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+  }
+
+}
+@media only screen and (max-width:450px){
+  .main .hero-text-box h1{
+    font-size: 20px;
+  }
+  .main .hero-text-box h4{
+    font-size: 17px;
+  }
+  .main .hero-text-box p{
+    font-size: 13px;
+  }
+}
+
+
+@media only screen and (max-width:370px){
+
+  .nav li .links {
+    font-size: 12px;
+  }
+
+  .main .hero-text-box h4{
+    font-size: 15px;
+  }
+  .main .hero-text-box p{
+    font-size: 12px;
+  }
+
+
+}
+
+@media only screen and (max-width:300px){
+  .logo{
+    width: 40px;
+    margin: 5px;
+  }
+
+
+}
