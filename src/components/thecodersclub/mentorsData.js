@@ -1,7 +1,6 @@
 import aditi from '../../images/mentors/aditi.jpeg'
 import ahana from '../../images/mentors/ahana.jpg'
 import bishal from '../../images/mentors/bishal.jpg'
-import debo from '../../images/mentors/debo.jpg'
 import gourav from '../../images/mentors/gourav.jpeg'
 import harsh from '../../images/mentors/harsh.jpeg'
 import nehal from '../../images/mentors/nehal.jpg'

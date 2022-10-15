@@ -1,11 +1,10 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
-    Container, Row, Col, Button
+    Container, Row, Col
 } from 'react-bootstrap';
 import './thecodersclub.css';
 import { FaGithubSquare, FaLinkedin} from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 
 export default function Header(props) {

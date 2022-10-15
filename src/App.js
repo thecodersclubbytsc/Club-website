@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Main from './pages/thestartupclub/Home';
 import Thecodersclub from './pages/thecodersclub/Home';
 import TCCMentors from './pages/thecodersclub/Mentors'
 // import { library } from '@fortawesome/fontawesome-svg-core'
